@@ -9,14 +9,17 @@ namespace MoonAntonio
 	{
 		// Componentes
 		public NavMeshAgent navegador;
+		public Transform target;
 
 		private void Start()
 		{
 			navegador = GetComponent<NavMeshAgent>();
+			target = GameObject.FindGameObjectWithTag("Target").transform;
 
 			// SetDestination ir al punto dado
 			// NavMeshAgent precalcula la ruta y la ejecuta a lo largo del tiempo
-			navegador.SetDestination(new Vector3(3.4f,0.24f,-10.27f));
+
+			if(target) navegador.SetDestination(target.position);
 		}
 	}
 }

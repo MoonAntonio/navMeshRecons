@@ -108,6 +108,48 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 23800000, guid: 508a2637a110f423e924227a4bb95a07, type: 2}
+--- !u!1001 &108299209
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4323144456359436, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323144456359436, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323144456359436, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -11.643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323144456359436, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323144456359436, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323144456359436, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323144456359436, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323144456359436, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b02891460916e4bf6bff4c42bcd61c5e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &313756300
 Prefab:
   m_ObjectHideFlags: 0
@@ -218,6 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navegador: {fileID: 345585854}
+  target: {fileID: 0}
 --- !u!195 &345585854 stripped
 NavMeshAgent:
   m_PrefabParentObject: {fileID: 195483623981389252, guid: d2ca5419ad0724dd8aeafdd24e12cd63,
