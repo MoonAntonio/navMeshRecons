@@ -18,6 +18,9 @@ public class IAPatrol : MonoBehaviour {
 		// Asignamos los componentes
 		navegador = GetComponent<NavMeshAgent>();
 
+		// Configuracion
+		navegador.updateRotation = false; // No rote al enemigo (No esta en el Inspector)
+
 		// Inicializamos la patrulla
 		currentPatrolPoint = -1;
 		GoToNextPatrolPoint();
